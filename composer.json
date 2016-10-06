@@ -1,0 +1,18 @@
+{
+    "name": "Duke Pham",
+    "description": "Hack HHVM Testing",
+    "license": "MIT",
+    "require": {
+        "facebook/xhp-lib": "2.x"
+    },
+    "require-dev": {
+        "phpunit/dbunit": "^2.0",
+        "phpunit/php-code-coverage": "^3.3.0",
+        "phpunit/php-invoker": "1.1.*",
+        "phpunit/phpunit": "^5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/", "tests/"],
+        "files": ["src/Utils.php", "src/language/language.php"]
+    }
+}

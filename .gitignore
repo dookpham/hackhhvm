@@ -1,0 +1,12 @@
+# Composer
+/vendor
+/reports
+
+# NPM modules
+/node_modules
+
+# Sass cache
+.sass-cache
+
+# HHVM files
+www.pid
